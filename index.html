@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1 class="text-4xl flex justify-center items-center text-center">
+      Type Color For Input Box Out Put Visible For Box
+    </h1>
+    <div
+      id="box1"
+      class="border-slate-950 mt-10 box-content m-auto h-28 w-32 p-4 border-4 bg-rain0 m4"
+    ></div>
+
+    <div
+      class="flex justify-center items-center py-5 text-rose-50 border-slate-950"
+    >
+      <input type="text" id="input_one" class="py-30 bg-black" />
+    </div>
+
+    <h1 class="text-4xl flex justify-center items-center text-center py-10">
+      Click Button Change Color
+    </h1>
+    <div
+      id="continer"
+      class="border-spacing-2 flex justify-center items-center bg-black text-cyan-700"
+    >
+      <div id="cricle" class="h-80 w-80 rounded-full bg-slate-50 relative">
+        <div
+          id="box"
+          class="box-content h-32 w-32 p-4 border-4 bg-yellow-400 mt-28 translate-x-20 -translate-y-8"
+        >
+          <div
+            id="btn"
+            class="flex flex-1 justify-end items-end translate-y-52 translate-x-24 gap-10 text-2xl py-7 mt-3"
+          >
+            <button id="btn_1" class="bg-red-700 p-1 text-white rounded-xl">
+              Red
+            </button>
+            <button id="btn_2" class="bg-green-600 p-1 text-white rounded-xl">
+              Green
+            </button>
+            <button id="btn_3" class="bg-blue-700 p-1 text-white rounded-xl">
+              Bule
+            </button>
+            <button id="btn_4" class="bg-amber-500 p-1 text-white rounded-xl">
+              Restet
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
